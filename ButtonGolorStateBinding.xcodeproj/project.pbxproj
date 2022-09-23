@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC8092D728DD9E0F00B2AC6C /* ButtonGolorStateBindingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8092D628DD9E0F00B2AC6C /* ButtonGolorStateBindingApp.swift */; };
+		AC8092D928DD9E0F00B2AC6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8092D828DD9E0F00B2AC6C /* ContentView.swift */; };
+		AC8092DB28DD9E1100B2AC6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC8092DA28DD9E1100B2AC6C /* Assets.xcassets */; };
+		AC8092DE28DD9E1100B2AC6C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC8092DD28DD9E1100B2AC6C /* Preview Assets.xcassets */; };
+		AC8092E828DD9E1100B2AC6C /* ButtonGolorStateBindingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8092E728DD9E1100B2AC6C /* ButtonGolorStateBindingTests.swift */; };
+		AC8092F228DD9E1100B2AC6C /* ButtonGolorStateBindingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8092F128DD9E1100B2AC6C /* ButtonGolorStateBindingUITests.swift */; };
+		AC8092F428DD9E1100B2AC6C /* ButtonGolorStateBindingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8092F328DD9E1100B2AC6C /* ButtonGolorStateBindingUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC8092E428DD9E1100B2AC6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC8092CB28DD9E0F00B2AC6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC8092D228DD9E0F00B2AC6C;
+			remoteInfo = ButtonGolorStateBinding;
+		};
+		AC8092EE28DD9E1100B2AC6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC8092CB28DD9E0F00B2AC6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC8092D228DD9E0F00B2AC6C;
+			remoteInfo = ButtonGolorStateBinding;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC8092D328DD9E0F00B2AC6C /* ButtonGolorStateBinding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonGolorStateBinding.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC8092D628DD9E0F00B2AC6C /* ButtonGolorStateBindingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonGolorStateBindingApp.swift; sourceTree = "<group>"; };
+		AC8092D828DD9E0F00B2AC6C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AC8092DA28DD9E1100B2AC6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC8092DD28DD9E1100B2AC6C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC8092E328DD9E1100B2AC6C /* ButtonGolorStateBindingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonGolorStateBindingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC8092E728DD9E1100B2AC6C /* ButtonGolorStateBindingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonGolorStateBindingTests.swift; sourceTree = "<group>"; };
+		AC8092ED28DD9E1100B2AC6C /* ButtonGolorStateBindingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonGolorStateBindingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC8092F128DD9E1100B2AC6C /* ButtonGolorStateBindingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonGolorStateBindingUITests.swift; sourceTree = "<group>"; };
+		AC8092F328DD9E1100B2AC6C /* ButtonGolorStateBindingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonGolorStateBindingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC8092D028DD9E0F00B2AC6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8092E028DD9E1100B2AC6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8092EA28DD9E1100B2AC6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC8092CA28DD9E0F00B2AC6C = {
+			isa = PBXGroup;
+			children = (
+				AC8092D528DD9E0F00B2AC6C /* ButtonGolorStateBinding */,
+				AC8092E628DD9E1100B2AC6C /* ButtonGolorStateBindingTests */,
+				AC8092F028DD9E1100B2AC6C /* ButtonGolorStateBindingUITests */,
+				AC8092D428DD9E0F00B2AC6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC8092D428DD9E0F00B2AC6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC8092D328DD9E0F00B2AC6C /* ButtonGolorStateBinding.app */,
+				AC8092E328DD9E1100B2AC6C /* ButtonGolorStateBindingTests.xctest */,
+				AC8092ED28DD9E1100B2AC6C /* ButtonGolorStateBindingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC8092D528DD9E0F00B2AC6C /* ButtonGolorStateBinding */ = {
+			isa = PBXGroup;
+			children = (
+				AC8092D628DD9E0F00B2AC6C /* ButtonGolorStateBindingApp.swift */,
+				AC8092D828DD9E0F00B2AC6C /* ContentView.swift */,
+				AC8092DA28DD9E1100B2AC6C /* Assets.xcassets */,
+				AC8092DC28DD9E1100B2AC6C /* Preview Content */,
+			);
+			path = ButtonGolorStateBinding;
+			sourceTree = "<group>";
+		};
+		AC8092DC28DD9E1100B2AC6C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AC8092DD28DD9E1100B2AC6C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC8092E628DD9E1100B2AC6C /* ButtonGolorStateBindingTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC8092E728DD9E1100B2AC6C /* ButtonGolorStateBindingTests.swift */,
+			);
+			path = ButtonGolorStateBindingTests;
+			sourceTree = "<group>";
+		};
+		AC8092F028DD9E1100B2AC6C /* ButtonGolorStateBindingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC8092F128DD9E1100B2AC6C /* ButtonGolorStateBindingUITests.swift */,
+				AC8092F328DD9E1100B2AC6C /* ButtonGolorStateBindingUITestsLaunchTests.swift */,
+			);
+			path = ButtonGolorStateBindingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC8092D228DD9E0F00B2AC6C /* ButtonGolorStateBinding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC8092F728DD9E1100B2AC6C /* Build configuration list for PBXNativeTarget "ButtonGolorStateBinding" */;
+			buildPhases = (
+				AC8092CF28DD9E0F00B2AC6C /* Sources */,
+				AC8092D028DD9E0F00B2AC6C /* Frameworks */,
+				AC8092D128DD9E0F00B2AC6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ButtonGolorStateBinding;
+			productName = ButtonGolorStateBinding;
+			productReference = AC8092D328DD9E0F00B2AC6C /* ButtonGolorStateBinding.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC8092E228DD9E1100B2AC6C /* ButtonGolorStateBindingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC8092FA28DD9E1100B2AC6C /* Build configuration list for PBXNativeTarget "ButtonGolorStateBindingTests" */;
+			buildPhases = (
+				AC8092DF28DD9E1100B2AC6C /* Sources */,
+				AC8092E028DD9E1100B2AC6C /* Frameworks */,
+				AC8092E128DD9E1100B2AC6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC8092E528DD9E1100B2AC6C /* PBXTargetDependency */,
+			);
+			name = ButtonGolorStateBindingTests;
+			productName = ButtonGolorStateBindingTests;
+			productReference = AC8092E328DD9E1100B2AC6C /* ButtonGolorStateBindingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC8092EC28DD9E1100B2AC6C /* ButtonGolorStateBindingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC8092FD28DD9E1100B2AC6C /* Build configuration list for PBXNativeTarget "ButtonGolorStateBindingUITests" */;
+			buildPhases = (
+				AC8092E928DD9E1100B2AC6C /* Sources */,
+				AC8092EA28DD9E1100B2AC6C /* Frameworks */,
+				AC8092EB28DD9E1100B2AC6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC8092EF28DD9E1100B2AC6C /* PBXTargetDependency */,
+			);
+			name = ButtonGolorStateBindingUITests;
+			productName = ButtonGolorStateBindingUITests;
+			productReference = AC8092ED28DD9E1100B2AC6C /* ButtonGolorStateBindingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC8092CB28DD9E0F00B2AC6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					AC8092D228DD9E0F00B2AC6C = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					AC8092E228DD9E1100B2AC6C = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = AC8092D228DD9E0F00B2AC6C;
+					};
+					AC8092EC28DD9E1100B2AC6C = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = AC8092D228DD9E0F00B2AC6C;
+					};
+				};
+			};
+			buildConfigurationList = AC8092CE28DD9E0F00B2AC6C /* Build configuration list for PBXProject "ButtonGolorStateBinding" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC8092CA28DD9E0F00B2AC6C;
+			productRefGroup = AC8092D428DD9E0F00B2AC6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC8092D228DD9E0F00B2AC6C /* ButtonGolorStateBinding */,
+				AC8092E228DD9E1100B2AC6C /* ButtonGolorStateBindingTests */,
+				AC8092EC28DD9E1100B2AC6C /* ButtonGolorStateBindingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC8092D128DD9E0F00B2AC6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC8092DE28DD9E1100B2AC6C /* Preview Assets.xcassets in Resources */,
+				AC8092DB28DD9E1100B2AC6C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8092E128DD9E1100B2AC6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8092EB28DD9E1100B2AC6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC8092CF28DD9E0F00B2AC6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC8092D928DD9E0F00B2AC6C /* ContentView.swift in Sources */,
+				AC8092D728DD9E0F00B2AC6C /* ButtonGolorStateBindingApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8092DF28DD9E1100B2AC6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC8092E828DD9E1100B2AC6C /* ButtonGolorStateBindingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8092E928DD9E1100B2AC6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC8092F428DD9E1100B2AC6C /* ButtonGolorStateBindingUITestsLaunchTests.swift in Sources */,
+				AC8092F228DD9E1100B2AC6C /* ButtonGolorStateBindingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC8092E528DD9E1100B2AC6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC8092D228DD9E0F00B2AC6C /* ButtonGolorStateBinding */;
+			targetProxy = AC8092E428DD9E1100B2AC6C /* PBXContainerItemProxy */;
+		};
+		AC8092EF28DD9E1100B2AC6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC8092D228DD9E0F00B2AC6C /* ButtonGolorStateBinding */;
+			targetProxy = AC8092EE28DD9E1100B2AC6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AC8092F528DD9E1100B2AC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC8092F628DD9E1100B2AC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC8092F828DD9E1100B2AC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ButtonGolorStateBinding/Preview Content\"";
+				DEVELOPMENT_TEAM = 3WL53CAG23;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nat.ButtonGolorStateBinding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC8092F928DD9E1100B2AC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ButtonGolorStateBinding/Preview Content\"";
+				DEVELOPMENT_TEAM = 3WL53CAG23;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nat.ButtonGolorStateBinding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC8092FB28DD9E1100B2AC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3WL53CAG23;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nat.ButtonGolorStateBindingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ButtonGolorStateBinding.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ButtonGolorStateBinding";
+			};
+			name = Debug;
+		};
+		AC8092FC28DD9E1100B2AC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3WL53CAG23;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nat.ButtonGolorStateBindingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ButtonGolorStateBinding.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ButtonGolorStateBinding";
+			};
+			name = Release;
+		};
+		AC8092FE28DD9E1100B2AC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3WL53CAG23;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nat.ButtonGolorStateBindingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ButtonGolorStateBinding;
+			};
+			name = Debug;
+		};
+		AC8092FF28DD9E1100B2AC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3WL53CAG23;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nat.ButtonGolorStateBindingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ButtonGolorStateBinding;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC8092CE28DD9E0F00B2AC6C /* Build configuration list for PBXProject "ButtonGolorStateBinding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC8092F528DD9E1100B2AC6C /* Debug */,
+				AC8092F628DD9E1100B2AC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC8092F728DD9E1100B2AC6C /* Build configuration list for PBXNativeTarget "ButtonGolorStateBinding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC8092F828DD9E1100B2AC6C /* Debug */,
+				AC8092F928DD9E1100B2AC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC8092FA28DD9E1100B2AC6C /* Build configuration list for PBXNativeTarget "ButtonGolorStateBindingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC8092FB28DD9E1100B2AC6C /* Debug */,
+				AC8092FC28DD9E1100B2AC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC8092FD28DD9E1100B2AC6C /* Build configuration list for PBXNativeTarget "ButtonGolorStateBindingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC8092FE28DD9E1100B2AC6C /* Debug */,
+				AC8092FF28DD9E1100B2AC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC8092CB28DD9E0F00B2AC6C /* Project object */;
+}
